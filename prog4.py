@@ -1,14 +1,3 @@
-"""
-    Notebook for streaming data from a microphone in realtime
-    audio is captured using pyaudio
-    then converted from binary data to ints using struct
-    then displayed using matplotlib
-    scipy.fftpack computes the FFT
-    if you don't have pyaudio, then run
-    pip install pyaudio
-    note: with 2048 samples per chunk, I'm getting 20FPS
-    when also running the spectrum, its about 15FPS
-"""
 import matplotlib.pyplot as plt
 import numpy as np
 import pyaudio
